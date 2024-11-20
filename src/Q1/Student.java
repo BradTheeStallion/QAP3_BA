@@ -10,11 +10,11 @@ class Student extends Person {
 
         // initialize what’s new to Student
 
-        myIdNum = idNum;
+        this.myIdNum = idNum;
 
-        myGPA = gpa;
+        this.myGPA = gpa;
 
-    } 
+    }
 
     public String toString() {
         return super.toString() + ", student id: " + myIdNum + ", gpa: " + myGPA;

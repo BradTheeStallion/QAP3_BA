@@ -1,3 +1,7 @@
+//Brad Ayers
+//QAP3
+//November 20-21, 2024
+
 package Q3;
 
 public class Circle extends Shape {

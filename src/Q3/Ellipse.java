@@ -3,7 +3,7 @@ package Q3;
 public class Ellipse extends Shape {
     private double a; // Major axis
     private double b; // Minor axis
-    
+
     public Ellipse(double axis1, double axis2) {
         super("Ellipse");
         this.a = Math.max(axis1, axis2);

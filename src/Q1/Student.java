@@ -1,17 +1,13 @@
 package Q1;
 
 class Student extends Person {
-    protected String myIdNum; // Student Id Number
-    protected double myGPA; // grade point average
+    protected String myIdNum;
+    protected double myGPA;
 
     public Student(String name, int age, String gender, String idNum, double gpa) {
-        // use the super class’ constructor
         super(name, age, gender);
 
-        // initialize what’s new to Student
-
         this.myIdNum = idNum;
-
         this.myGPA = gpa;
 
     }

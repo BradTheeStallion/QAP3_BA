@@ -1,6 +1,7 @@
 package Q3;
+import Q4.Scalable;
 
-public abstract class Shape {
+public abstract class Shape implements Scalable {
     private String name;
 
     public Shape(String name) {

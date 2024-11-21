@@ -1,8 +1,8 @@
 package Q1;
 
 public class Teacher extends Person {
-    private String subject;
-    private double salary;
+    private String subject = "AWS";
+    private double salary = 60000;
 
     public Teacher(String name, int age, String gender, String subject, double salary) {
         super(name, age, gender);
